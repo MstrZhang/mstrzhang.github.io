@@ -10,3 +10,7 @@
     -moz-box-shadow: 5px 5px 5px #777;
     box-shadow: 5px 5px 5px #777;
 }
+
+.name {
+    font-weight: bold;
+}
