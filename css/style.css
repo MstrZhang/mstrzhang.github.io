@@ -14,3 +14,7 @@
 .name {
     font-weight: bold;
 }
+
+.fp-tooltip {
+    color: black !important;
+}
