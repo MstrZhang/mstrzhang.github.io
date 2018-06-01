@@ -327,8 +327,7 @@ th,
 td {
   padding-bottom: 5px;
   padding-right: 8rem;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  text-align: left; }
 th:first-child,
 td:first-child {
   padding-left: 0; }
