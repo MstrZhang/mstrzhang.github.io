@@ -1,8 +1,16 @@
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .square-image {
     border-style: solid;
     border-width: 2rem;
     border-color: #FBFBFB;
     width: 360px;
+}
+
+.small-image {
+    border-width: 1rem;
+    width: 240px;
 }
 
 .box-shadow {
@@ -11,10 +19,49 @@
     box-shadow: 5px 5px 5px #777;
 }
 
+/* Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .name {
+    font-weight: bold;
+}
+
+.content {
+    font-size: 16px;
+}
+
+.heading {
     font-weight: bold;
 }
 
 .fp-tooltip {
     color: black !important;
+}
+
+
+/* Alignment
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Margins */
+.ml-1 {
+    margin-left: 1rem;
+}
+.mr-1 {
+    margin-right: 1rem;
+}
+.mr-3 {
+    margin-right: 3rem;
+}
+.mt-5 {
+    margin-top: 5%;
+}
+.mt-25 {
+    margin-top: 25%;
+}
+
+/* Centering */
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
