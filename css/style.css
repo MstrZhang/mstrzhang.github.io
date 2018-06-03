@@ -40,6 +40,12 @@
     color: black !important;
 }
 
+.card {
+    padding: 30px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+}
+
 
 /* Alignment
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
