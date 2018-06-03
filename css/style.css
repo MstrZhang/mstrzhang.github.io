@@ -1,6 +1,10 @@
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+img {
+    image-orientation: from-image;
+}
+
 .square-image {
     border-style: solid;
     border-width: 2rem;
@@ -11,6 +15,12 @@
 .small-image {
     border-width: 1.5rem;
     width: 240px;
+}
+
+.thumbnail {
+    object-fit: cover;
+    width: 235px;
+    height: 235px;
 }
 
 .box-shadow {
