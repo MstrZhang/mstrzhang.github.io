@@ -3,6 +3,7 @@
 
 img {
     position: relative;
+    border-radius: 2px;
 }
 
 .square-image {

@@ -10,8 +10,6 @@ The site is very lightweight. Runs straight from index.html
 
 ## Photography
 - Lightbox feature
-- Issue where slide arrows are wrong color
-    - Issue where slide arrows overlap with navigation bubbles
 
 ## Footer page
 - Very short description
