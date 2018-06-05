@@ -32,6 +32,7 @@ The site is very lightweight. Runs straight from index.html
     - Probably do the same thing but use a "K" or "Z" instead of an "S"
 - Replace some undesired pictures
     - Add `alt` attributes to photos
+    - Edit photos in Lightroom
     - Add meaningful filenames
 - Add to GitHub
 - Buy a domain
