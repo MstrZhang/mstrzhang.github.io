@@ -10,6 +10,7 @@ The site is very lightweight. Runs straight from index.html
 
 ## Photography
 - Lightbox feature
+- Reorganize picture order
 
 ## Footer page
 - Very short description
@@ -20,7 +21,7 @@ The site is very lightweight. Runs straight from index.html
 - Issues with table responsiveness
 - Add responsive resizing of images
 
-## Miscellaneous
+## Miscellaneous / Low Priority
 - Look into getting a splash page
     - Possibly look into using Typed.js library
 - Replace favicon
