@@ -2,6 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 img {
+    position: relative;
     image-orientation: from-image;
 }
 
