@@ -10,9 +10,6 @@ The site is very lightweight. Runs straight from index.html
 
 ## Photography
 - Lightbox feature
-- Grow images on hover
-    - Issue with Hover.css where z-index is incorrect
-- Issue where portrait images are being displayed in landscape
 - Issue where slide arrows are wrong color
     - Issue where slide arrows overlap with navigation bubbles
 
@@ -31,8 +28,7 @@ The site is very lightweight. Runs straight from index.html
 - Replace favicon
     - Probably do the same thing but use a "K" or "Z" instead of an "S"
 - Replace some undesired pictures
-    - Add `alt` attributes to photos
     - Edit photos in Lightroom
-    - Add meaningful filenames
+    - Finalize filenames
 - Add to GitHub
 - Buy a domain
