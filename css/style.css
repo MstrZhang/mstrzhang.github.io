@@ -82,7 +82,10 @@ img {
     margin-top: 25%;
 }
 
-/* Centering */
+.fp-slidesNav {
+    text-align: center;
+}
+
 .center {
     display: block;
     margin: 0 auto;
