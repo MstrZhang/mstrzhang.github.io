@@ -10,12 +10,6 @@ The site is very lightweight. Runs straight from index.html
 
 ## Photography
 - Lightbox feature
-- Reorganize picture order
-
-## Footer page
-- Very short description
-    - "Designed with ❤️ by Kevin Zhang 2018"
-    - "Powered by <a href="http://getskeleton.com">Skeleton CSS</a>"
 
 ## Responsiveness
 - Issues with table responsiveness
