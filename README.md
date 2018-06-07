@@ -20,8 +20,6 @@ The site is very lightweight. Runs straight from index.html
     - Possibly look into using Typed.js library
 - Replace favicon
     - Probably do the same thing but use a "K" or "Z" instead of an "S"
-- Replace some undesired pictures
-    - Edit photos in Lightroom
-    - Finalize filenames
+- Edit photos in Lightroom
 - Add to GitHub
 - Buy a domain
