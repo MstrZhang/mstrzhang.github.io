@@ -92,3 +92,12 @@ img {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Hover
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2 !important;
+  }
