@@ -1,270 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Kevin Zhang</title>
-  <meta name="description"="Kevin Zhang - Full Stack Software Engineer">
-  <meta name="author"="Kevin Zhang">
-  <meta name="viewport"="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" type="text/css" href="packages/jquery.fullpage.min.css" />
-  <link rel="stylesheet" type="text/css" href="packages/hover-min.css">
-  <script type="text/javascript" src="packages/jquery.min.js"></script>
-  <script type="text/javascript" src="packages/jquery.fullpage.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
 </head>
-<body>
-  <div id="fullpage">
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="six columns bigly">
-            <p>Heyo!</p>
-            <p>
-              I'm <strong>Kevin Zhang</strong>, a forward-thinking full stack software engineer
-              focused on creating simple, clean, and elegant user experiences
-            </p>
-            <br>
-            <div class="center">
-              <a class="hvr-grow" href="https://www.facebook.com/mstr.zhang"><i class="fab fa-facebook fa-lg mr-1"></i></a>
-              <a class="hvr-grow" href="https://www.twitter.com/mstrzhang"><i class="fab fa-twitter fa-lg mr-1"></i></a>
-              <a class="hvr-grow" href="https://www.instagram.com/mstr_zhang"><i class="fab fa-instagram fa-lg mr-1"></i></a>
-              <a class="hvr-grow" href="https://www.github.com/mstrzhang"><i class="fab fa-github fa-lg mr-1"></i></a>
-              <a class="hvr-grow" href="https://www.linkedin.com/in/mstrzhang/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
-            </div>
-          </div>
-          <div class="six columns">
-            <img src="images/placeholder.jpg" alt="placeholder image" class="square-image box-shadow center">
-          </div>
+<body class="site">
+  <div id="scroll-top" class="hvr-wobble-vertical" onclick="scrollToTop()">☝🏻</div>
+  <div class="container site-content">
+    <div id="home" class="page center">
+      <div id="logo">Kevin Zhang</div>
+      <div id="logo-subtext" class="subtext">
+        Full Stack Software Engineer
+        <div id="social-icons" class="mt-2">
+            <a href="https://www.facebook.com/mstr.zhang" class="icon hvr-grow">
+              <i class="fab fa-facebook-f mr-1 flat"></i>
+            </a>
+            <a href="mailto:mstr.zhang@gmail.com" class="icon hvr-grow">
+              <i class="fa fa-envelope mr-1 flat"></i>
+            </a>
+            <a href="https://www.twitter.com/mstrzhang" class="icon hvr-grow">
+              <i class="fab fa-twitter mr-1 flat"></i>
+            </a>
+            <a href="https://www.instagram.com/mstr_zhang" class="icon hvr-grow">
+              <i class="fab fa-instagram mr-1 flat"></i>
+            </a>
+            <a href="https://www.github.com/mstrzhang" class="icon hvr-grow">
+              <i class="fab fa-github mr-1 flat"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mstrzhang" class="icon hvr-grow">
+              <i class="fab fa-linkedin-in flat"></i>
+            </a>
         </div>
       </div>
     </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="three columns">
-            <p class="heading">BACKGROUND</p>
-          </div>
-          <div class="nine columns">
-            <p>
-              I'm a Co-op Computer Science student at the <strong><a class="hvr-underline-reveal" href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a></strong>
-              specializing in Software Engineering with an expected graduation date of April 2019. I've had the pleasure of spending a year working for the
-              <strong><a class="hvr-underline-reveal" href="https://www.mpac.ca">Municipal Property Assessment Corporation</a></strong> developing internal enterprise software used to
-              serve the over five million properties in the province of Ontario
-            </p>
-            <p>
-              Away from the computer, I'm an avid photographer, adventurer, hiker, and skateboarder. I'm also a long-time musician with 15+ years of experience on
-              the piano and years of experience on many other instruments. You'll probably find me out on a trail somewhere or lapping you in Mario Kart ;)
-            </p>
-          </div>
-        </div>
-        <br>
-        <div class="row center">
-          <table>
-            <tr>
-              <td><img src="images/about1.jpg" class="square-image small-image box-shadow"></td>
-              <td><img src="images/about2.jpg" class="square-image small-image box-shadow"></td>
-              <td><img src="images/about3.jpg" class="square-image small-image box-shadow"></td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="three columns">
-            <p class="heading">WORK EXPERIENCE</p>
-          </div>
-          <div class="six columns">
-            <p>
-              <strong><a class="hvr-underline-reveal" href="https://www.mpac.ca">Municipal Property Assessment Corporation</a></strong> <br>
-              Junior Systems Developer
-            </p>
-          </div>
-          <div class="three columns">
-            <p class="date-caption">May 2017 - April 2018</p>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="twelve columns">
-            <p class="card box-shadow">
-              I spent a year working for MPAC as a Junior Systems Developer. Over this time I was a part
-              of a large decomissioning project to refactor and replace a pre-existing property valuation engine
-              of which would be used internally and sold for external use in other municipalities. I also maintained,
-              developed, updated, and deployed internal web applications while using JIRA to update and complete user
-              stories. I had the opportunity to extensively use lots of front-end and back-end frameworks and technologies
-              such as Angular, Bootstrap, VueJS, Spring Boot, Postgres, and Kubernetes
-            </p>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="three columns">
-            <p class="heading">TECHNICAL SKILLS</p>
-          </div>
-          <div class="nine columns">
-            <table>
-              <thead>
-                <tr>
-                  <th>LANGUAGES</th>
-                  <th>FRAMEWORKS</th>
-                  <th>TOOLS</th>
-                  <th>DESIGN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Python</td>
-                  <td>Angular</td>
-                  <td>Bash / zsh</td>
-                  <td>Photoshop</td>
-                </tr>
-                <tr>
-                  <td>Javascript (ES6)</td>
-                  <td>Spring Boot</td>
-                  <td>Git</td>
-                  <td>Illustrator</td>
-                </tr>
-                <tr>
-                  <td>Java</td>
-                  <td>Electron</td>
-                  <td>Subversion</td>
-                  <td>Lightroom</td>
-                </tr>
-                <tr>
-                  <td>Haskell</td>
-                  <td>Wordpress</td>
-                  <td>Postman</td>
-                  <td>Premiere</td>
-                </tr>
-                <tr>
-                  <td>C</td>
-                  <td>Bootstrap</td>
-                  <td>Kubernetes</td>
-                  <td>After Effects</td>
-                </tr>
-                <tr>
-                  <td>Scheme</td>
-                  <td>VueJS</td>
-                  <td>JIRA / Confluence</td>
-                  <td>Flash / Animate</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <br>
-        <div class="twelve columns">
+    <div id="about-me" class="page hide">
+      <h1>Hello World! <span class="hvr-buzz-out">👋🏻</span></h1>
+      <div class="flexbox">
+        <div class="flex-item">
           <p>
-            For a full list of skills and work experience, check out my <strong><a class="hvr-underline-reveal" href="resources/resume.pdf">resume</a></strong>
+            My name's Kevin! I'm a software engineer based in Toronto, ON with an HBSc. in Computer Science from 
+            <a href="https://www.utsc.utoronto.ca/home">@UTSC</a>
           </p>
+          <p>
+            I'm currently working at <a href="https://www.mpac.ca">@MPAC</a> as a Systems Developer and at 
+            <a href="https://www.utsc.utoronto.ca/home">@UTSC</a> as a Teaching Assistant
+          </p>
+          <p>
+            Away from the computer, I'm an avid photographer, classical pianist, and can probably kick your butt at Super Smash Bros
+          </p>
+          <p>Here's some tech I've been using over the years:</p>
+          <ul class="grid">
+            <li>$ Python</li>
+            <li>$ Javascript</li>
+            <li>$ Node.js</li>
+            <li>$ Angular</li>
+            <li>$ React</li>
+            <li>$ Jekyll</li>
+            <li>$ Docker</li>
+            <li>$ Kubernetes</li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <img src="res/me.jpeg" alt="me" class="img-lg hvr-buzz-out flat-obj">
         </div>
       </div>
+      <div class="divider"></div>
+      <p class="center">
+        Currently not seeking any work opportunities but feel free to reach out by <a href="mailto:mstr.zhang@gmail.com">📨email</a> or
+        check out my <a href="res/resume.pdf">🔖resume</a>!
+      </p>
     </div>
-    <div class="section">
-      <div class="slide">
-        <div class="container">
-          <div class="row">
-            <div class="three columns">
-              <p class="heading">PHOTOGRAPHY</p>
-            </div>
-            <div class="nine columns">
-              <p>
-                In my free time, I'm a bit of an amateur photographer. I particularly enjoy shooting travel and portrait photography
-              </p>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="column">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/1.jpg" alt="leonas sitting on a rock">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/2.jpg" alt="kevin at stawamus chief">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/3.jpg" alt="gigi and yui in front of a sunset">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/4.jpg" alt="the boys at grand bend">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/5.jpg" alt="three planes">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/6.jpg" alt="hand holding a flower">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/7.jpg" alt="granville bridge">
-              <img class="thumbnail box-shadow hvr-grow" src="images/photography/optimized/8.jpg" alt="english bay">
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="column center">
-              <p>
-                <span class="mr-1"><i class="fas fa-camera-retro"></i> Nikon D5300</span>
-                <span class="mr-1"><i class="fa fa-mobile-alt"></i> iPhone 8</span>
-                <span class="mr-1"><i class="fa fa-camera"></i> Canon EOS M3</span>
-              </p>
-            </div>
-          </div>
+    <div id="work-experience" class="page hide">
+      <h1>Places I've Worked <span class="hvr-bob">👨🏻‍💻</span></h1>
+      <div class="flexbox">
+        <div class="flex-item tabs">
+          <div id="mpac-tab" class="tab active" onclick="activateTab('mpac')">Municipal Property Assessment Corporation</div>
+          <div id="utsc-tab" class="tab" onclick="activateTab('utsc')">University of Toronto Scarborough</div>
         </div>
-      </div>
-      <div class="slide">
-        <div class="container">
-          <div class="row">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/9.jpg" alt="elevated house">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/10.jpg" alt="sylvia at waterloo">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/11.jpg" alt="sylvia in the snow">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/12.jpg" alt="brennan at the parking garage">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/13.jpg" alt="sylvia at the parking garage">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/14.jpg" alt="mike at the parking garage">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/15.jpg" alt="alex at niagara falls">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/16.jpg" alt="snail in the valley">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/17.jpg" alt="creek in the valley">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/18.jpg" alt="alec at distillery">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/19.jpg" alt="kevin at distillery">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/20.jpg" alt="sylvia at polson pier">
-          </div>
+        <div id="v-divider" class="flex-item">
+          <div class="v-divider"></div>
         </div>
-      </div>
-      <div class="slide">
-        <div class="container">
-          <div class="row">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/21.jpg" alt="bridge in toronto">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/22.jpg" alt="freezing rain in hand">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/23.jpg" alt="freezing rain tree">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/24.jpg" alt="jason battle cry">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/25.jpg" alt="carl in montreal">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/26.jpg" alt="leaves with sun peeking through">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/27.jpg" alt="kids at crawford lake">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/28.jpg" alt="alex at dundas peak">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/29.jpg" alt="kevin in cornfield">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/30.jpg" alt="vintage gas station">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/31.jpg" alt="kevin with smol tree">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/32.jpg" alt="osaka, japan">
+        <div class="flex-item">
+          <div id="mpac-text" class="tab-text">
+            <h2>Systems Developer <a href="https://mpac.ca">@MPAC</a></h2>
+            <p class="subtext">May 2019 to present</p>
+            <ul>
+              <li>Developed and prototyped internal business software for property valuation using Angular</li>
+              <li>Worked with a variety of backend technologies such as Spring Boot and Sanic as well as database technologies such as PostgreSQL</li>
+              <li>Experience using deployment technologies such as Kubernetes and Docker</li>
+            </ul>
+            <div class="center">
+              <div class="badge color-primary">Angular</div>
+              <div class="badge color-primary">Javascript</div>
+              <div class="badge color-primary">PostgreSQL</div>
+              <div class="badge color-primary">Java</div>
+              <div class="badge color-primary">Spring Boot</div>
+              <div class="badge color-primary">Python</div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="container">
-          <div class="row">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/33.jpg" alt="kevin in kyoto">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/34.jpg" alt="somewhere over california">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/35.jpg" alt="celeste playing pool">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/36.jpg" alt="alex and sabrina">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/37.jpg" alt="mike and cole at the bar">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/38.jpg" alt="cat on table">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/39.jpg" alt="mike grinning">
-            <img class="thumbnail box-shadow hvr-grow" data-src="images/photography/optimized/40.jpg" alt="toronto christmas market">
+          <div id="utsc-text" class="tab-text" hidden>
+            <h2>Teaching Assistant <a href="https://utsc.utoronto.ca/home">@UTSC</a></h2>
+            <p class="subtext">January 2019 to present</p>
+            <ul>
+              <li>
+                Teaching assistant for the courses <a href="https://utsc.calendar.utoronto.ca/course/cscb20h3">CSCB20</a> 
+                and <a href="https://utsc.calendar.utoronto.ca/course/cscc01h3">CSCC01</a> under Professor Abbas Attarwala</li>
+              <li>Wrote and taught class exercises to groups of 30+ students with course materials made using Jekyll and Flask</li>
+              <li>Graded coursework ranging from quizzes and exercises to midterms and finals</li>
+            </ul>
+            <div class="center">
+              <div class="badge color-primary">Jekyll</div>
+              <div class="badge color-primary">Flask</div>
+              <div class="badge color-primary">SQLite</div>
+              <div class="badge color-primary">Maven</div>
+              <div class="badge color-primary">Java</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section">
-      <div class="container">
-        <div class="column center">
-          <p>Made with ❤️ by Kevin Zhang</p>
-          <p>Powered by <span class="hvr-underline-reveal"><a href="https://getskeleton.com"><strong>Skeleton CSS</strong></a></span></p>
-          <p>&copy; 2018</p>
+    <div id="projects" class="page hide">
+      <h1>Featured Projects <span class="hvr-grow-rotate">🚀</span></h1>
+      <div class="flexbox">
+        <div class="flex-item">
+          <img src="res/magic-maze.png" alt="magic maze" class="img-md hvr-buzz-out flat-obj">
+          <p class="text-bold">
+            Magic Maze &nbsp;<a href="https://github.com/MstrZhang/magic-maze"><i class="fab fa-github"></i></a>
+          </p>
+          <p class="subtext">
+            A multiplayer dungeon crawling game where 4 players try to concurrently move four different characters
+            through a procedurally generated maze. Each player can move any character but can only perform up to
+            two unique actions. Based on the table top game of the same name
+          </p>
+          <div class="center">
+            <div class="badge color-primary">React</div>
+            <div class="badge color-primary">GraphQL</div>
+            <div class="badge color-primary">NodeJS</div>
+            <div class="badge color-primary">PixiJS</div>
+            <div class="badge color-primary">MongoDB</div>
+            <div class="badge color-primary">Apollo</div>
+          </div>
+        </div>
+        <div class="flex-item">
+          <img src="res/t-hub.png" alt="t-hub" class="img-md hvr-buzz-out">
+          <p class="text-bold">
+            T-Hub &nbsp;<a href="https://github.com/MstrZhang/search-engine"><i class="fab fa-github"></i></a>
+          </p>
+          <p class="subtext">
+            A search system for students and instructors to upload and search for various files within the system.
+            Supports user accounts and features and functionality such as context searching, favouriting files, and
+            following other users
+          </p>
+          <div class="center">
+            <div class="badge color-primary">Angular</div>
+            <div class="badge color-primary">Java</div>
+            <div class="badge color-primary">Maven</div>
+            <div class="badge color-primary">Lucene</div>
+            <div class="badge color-primary">Tomcat</div>
+            <div class="badge color-primary">Mockito</div>
+          </div>
+        </div>
+        <div class="flex-item">
+          <img src="res/cscb20.png" alt="magic maze" class="img-md hvr-buzz-out flat-obj">
+          <p class="text-bold">
+            CSCB20 website 
+            &nbsp;<a href="https://github.com/MstrZhang/cscb20"><i class="fab fa-github"></i></a>
+            &nbsp;<a href="https://mstrzhang.github.io/cscb20/"><i class="fa fa-external-link-alt"></i></a>
+          </p>
+          <p class="subtext">
+            Course website for my CSCB20 tutorials. Developed and created exercises for beginner web development 
+            students in HTML, CSS, SQLite, and Flask. Site written in Jekyll
+          </p>
+          <div class="center">
+            <div class="badge color-primary">Jekyll</div>
+            <div class="badge color-primary">HTML</div>
+            <div class="badge color-primary">CSS</div>
+            <div class="badge color-primary">Flask</div>
+            <div class="badge color-primary">SQLite</div>
+            <div class="badge color-primary">Python</div>
+          </div>
         </div>
       </div>
+      <div class="divider"></div>
+      <div class="center">
+        For more things I've made, check out my <a href="https://github.com/mstrzhang">🌐GitHub</a>
+      </div>
     </div>
+    <div id="contact" class="page hide">
+      <h1>Contact Me <span class="hvr-buzz-out">☎️</span></h1>
+      <p>
+        I'm currently not seeking any work opportunities but if you're looking to partner up for a project or just want to send me a hot meme
+        hit up my <a href="mailto:mstr.zhang@gmail.com">📥inbox</a> whenever you'd like!
+      </p>
+    </div>
+    <footer class="center subtext">
+      Made with ♥ by <a href="https://github.com/mstrzhang">@mstrzhang</a> | Insipration by <a href="https://brittanychiang.com">@bchiang7</a>
+    </footer>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
