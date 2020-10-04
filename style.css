@@ -1,0 +1,81 @@
+* {
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+body {
+  background-color: #272822;
+  color: #f8f8f2;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: #66d9ef;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #66d9ef;
+}
+a:hover {
+  text-shadow: 0 0 3px #66d9ef;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0em;
+}
+li {
+  margin-bottom: 3px;
+}
+
+td {
+  padding-right: 1.5em;
+}
+th {
+  text-align: left;
+  padding-right: 1.5em;
+  color: #a6e22e;
+}
+
+hr {
+  max-width: calc(650px - 1.5em);
+  margin-left: 1.5em;
+  border-color: #3e3d32;
+  border-style: dashed;
+}
+
+.content-block {
+  padding: 0 1.5em;
+  text-align: left;
+  margin: 2em 0;
+  max-width: 650px;
+}
+
+.card {
+  height: 180px;
+  width: 180px;
+  margin: 0 10px 10px 0;  
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-subtitle {
+  color: #e6db74;
+}
+.text-heading {
+  color: #a6e22e;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-highlight {
+  color: #ff4588;
+}

@@ -3,212 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮</text></svg>">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Kevin Zhang</title>
 </head>
-<body class="site">
-  <div id="scroll-top" class="hvr-wobble-vertical" onclick="scrollToTop()">☝🏻</div>
-  <div class="container site-content">
-    <div id="home" class="page center">
-      <div id="logo">Kevin Zhang</div>
-      <div id="logo-subtext" class="subtext">
-        Full Stack Software Engineer
-        <div id="social-icons" class="mt-2">
-            <a href="https://www.facebook.com/mstr.zhang" class="icon hvr-grow">
-              <i class="fab fa-facebook-f mr-1 flat"></i>
-            </a>
-            <a href="mailto:mstr.zhang@gmail.com" class="icon hvr-grow">
-              <i class="fa fa-envelope mr-1 flat"></i>
-            </a>
-            <a href="https://www.twitter.com/mstrzhang" class="icon hvr-grow">
-              <i class="fab fa-twitter mr-1 flat"></i>
-            </a>
-            <a href="https://www.instagram.com/mstr_zhang" class="icon hvr-grow">
-              <i class="fab fa-instagram mr-1 flat"></i>
-            </a>
-            <a href="https://www.github.com/mstrzhang" class="icon hvr-grow">
-              <i class="fab fa-github mr-1 flat"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/mstrzhang" class="icon hvr-grow">
-              <i class="fab fa-linkedin-in flat"></i>
-            </a>
-        </div>
-      </div>
-    </div>
-    <div id="about-me" class="page hide">
-      <h1>Hello World! <span class="hvr-buzz-out">👋🏻</span></h1>
-      <div class="flexbox">
-        <div class="flex-item">
-          <p>
-            My name's Kevin! I'm a software engineer based in Toronto, ON with an HBSc. in Computer Science from 
-            <a href="https://www.utsc.utoronto.ca/home">@UTSC</a>
-          </p>
-          <p>
-            I'm currently working at <a href="https://www.mpac.ca">@MPAC</a> as a Systems Developer and at 
-            <a href="https://www.utsc.utoronto.ca/home">@UTSC</a> as a Teaching Assistant
-          </p>
-          <p>
-            Away from the computer, I'm an avid photographer, classical pianist, and can probably kick your butt at Super Smash Bros
-          </p>
-          <p>Here's some tech I've been using over the years:</p>
-          <ul class="grid">
-            <li>$ Python</li>
-            <li>$ Javascript</li>
-            <li>$ Node.js</li>
-            <li>$ Angular</li>
-            <li>$ React</li>
-            <li>$ Jekyll</li>
-            <li>$ Docker</li>
-            <li>$ Kubernetes</li>
-          </ul>
-        </div>
-        <div class="flex-item">
-          <img src="res/me.jpeg" alt="me" class="img-lg hvr-buzz-out flat-obj">
-        </div>
-      </div>
-      <div class="divider"></div>
-      <p class="center">
-        Currently not seeking any work opportunities but feel free to reach out by <a href="mailto:mstr.zhang@gmail.com">📨email</a> or
-        check out my <a href="res/resume.pdf">🔖resume</a>!
-      </p>
-    </div>
-    <div id="work-experience" class="page hide">
-      <h1>Places I've Worked <span class="hvr-bob">👨🏻‍💻</span></h1>
-      <div class="flexbox">
-        <div class="flex-item tabs">
-          <div id="mpac-tab" class="tab active" onclick="activateTab('mpac')">Municipal Property Assessment Corporation</div>
-          <div id="utsc-tab" class="tab" onclick="activateTab('utsc')">University of Toronto Scarborough</div>
-        </div>
-        <div id="v-divider" class="flex-item">
-          <div class="v-divider"></div>
-        </div>
-        <div class="flex-item">
-          <div id="mpac-text" class="tab-text">
-            <h2>Systems Developer <a href="https://mpac.ca">@MPAC</a></h2>
-            <p class="subtext">May 2019 to present</p>
-            <ul>
-              <li>Developed and prototyped internal business software for property valuation using Angular</li>
-              <li>Worked with a variety of backend technologies such as Spring Boot and Sanic as well as database technologies such as PostgreSQL</li>
-              <li>Experience using deployment technologies such as Kubernetes and Docker</li>
-            </ul>
-            <div class="center">
-              <div class="badge color-primary">Angular</div>
-              <div class="badge color-primary">Javascript</div>
-              <div class="badge color-primary">PostgreSQL</div>
-              <div class="badge color-primary">Java</div>
-              <div class="badge color-primary">Spring Boot</div>
-              <div class="badge color-primary">Python</div>
-            </div>
-          </div>
-          <div id="utsc-text" class="tab-text" hidden>
-            <h2>Teaching Assistant <a href="https://utsc.utoronto.ca/home">@UTSC</a></h2>
-            <p class="subtext">January 2019 to present</p>
-            <ul>
-              <li>
-                Teaching assistant for the courses <a href="https://utsc.calendar.utoronto.ca/course/cscb20h3">CSCB20</a> 
-                and <a href="https://utsc.calendar.utoronto.ca/course/cscc01h3">CSCC01</a> under Professor Abbas Attarwala</li>
-              <li>Wrote and taught class exercises to groups of 30+ students with course materials made using Jekyll and Flask</li>
-              <li>Graded coursework ranging from quizzes and exercises to midterms and finals</li>
-            </ul>
-            <div class="center">
-              <div class="badge color-primary">Jekyll</div>
-              <div class="badge color-primary">Flask</div>
-              <div class="badge color-primary">SQLite</div>
-              <div class="badge color-primary">Maven</div>
-              <div class="badge color-primary">Java</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="projects" class="page hide">
-      <h1>Featured Projects <span class="hvr-grow-rotate">🚀</span></h1>
-      <div class="flexbox">
-        <div class="flex-item">
-          <img src="res/magic-maze.png" alt="magic maze" class="img-md hvr-buzz-out flat-obj">
-          <p class="text-bold">
-            Magic Maze &nbsp;<a href="https://github.com/MstrZhang/magic-maze"><i class="fab fa-github"></i></a>
-          </p>
-          <p class="subtext">
-            A multiplayer dungeon crawling game where 4 players try to concurrently move four different characters
-            through a procedurally generated maze. Each player can move any character but can only perform up to
-            two unique actions. Based on the table top game of the same name
-          </p>
-          <div class="center">
-            <div class="badge color-primary">React</div>
-            <div class="badge color-primary">GraphQL</div>
-            <div class="badge color-primary">NodeJS</div>
-            <div class="badge color-primary">PixiJS</div>
-            <div class="badge color-primary">MongoDB</div>
-            <div class="badge color-primary">Apollo</div>
-          </div>
-        </div>
-        <div class="flex-item">
-          <img src="res/t-hub.png" alt="t-hub" class="img-md hvr-buzz-out">
-          <p class="text-bold">
-            T-Hub &nbsp;<a href="https://github.com/MstrZhang/search-engine"><i class="fab fa-github"></i></a>
-          </p>
-          <p class="subtext">
-            A search system for students and instructors to upload and search for various files within the system.
-            Supports user accounts and features and functionality such as context searching, favouriting files, and
-            following other users
-          </p>
-          <div class="center">
-            <div class="badge color-primary">Angular</div>
-            <div class="badge color-primary">Java</div>
-            <div class="badge color-primary">Maven</div>
-            <div class="badge color-primary">Lucene</div>
-            <div class="badge color-primary">Tomcat</div>
-            <div class="badge color-primary">Mockito</div>
-          </div>
-        </div>
-        <div class="flex-item">
-          <img src="res/cscb20.png" alt="magic maze" class="img-md hvr-buzz-out flat-obj">
-          <p class="text-bold">
-            CSCB20 website 
-            &nbsp;<a href="https://github.com/MstrZhang/cscb20"><i class="fab fa-github"></i></a>
-            &nbsp;<a href="https://mstrzhang.github.io/cscb20/"><i class="fa fa-external-link-alt"></i></a>
-          </p>
-          <p class="subtext">
-            Course website for my CSCB20 tutorials. Developed and created exercises for beginner web development 
-            students in HTML, CSS, SQLite, and Flask. Site written in Jekyll
-          </p>
-          <div class="center">
-            <div class="badge color-primary">Jekyll</div>
-            <div class="badge color-primary">HTML</div>
-            <div class="badge color-primary">CSS</div>
-            <div class="badge color-primary">Flask</div>
-            <div class="badge color-primary">SQLite</div>
-            <div class="badge color-primary">Python</div>
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <div class="center">
-        For more things I've made, check out my <a href="https://github.com/mstrzhang">🌐GitHub</a>
-      </div>
-    </div>
-    <div id="contact" class="page hide">
-      <h1>Contact Me <span class="hvr-buzz-out">☎️</span></h1>
-      <p>
-        I'm currently not seeking any work opportunities but if you're looking to partner up for a project or just want to send me a hot meme
-        hit up my <a href="mailto:mstr.zhang@gmail.com">📥inbox</a> whenever you'd like!
-      </p>
-    </div>
-    <footer class="center subtext">
-      Made with ♥ by <a href="https://github.com/mstrzhang">@mstrzhang</a> &bull; Insipration from <a href="https://brittanychiang.com">@bchiang7</a>
-    </footer>
+<body>
+  <div id="title" class="content-block">
+    <small class="text-subtitle">hey! 👋🏻 my name is ...</small>
+    <h1>Kevin Zhang</h1>
+    <small>📌 Toronto, ON &nbsp;&bull;&nbsp; <a href="resume.pdf">📃 Resume</a></small>
   </div>
-  <script src="js/script.js"></script>
+  <div id="overview" class="content-block">
+    <small class="text-subtitle">i am a ...</small>
+    <ul>
+      <li>💼 Systems Architecture Developer at <a href="https://www.mpac.ca/en/Homepage">MPAC</a></li>
+      <li>🎓 H.BSc in Computer Science from <a href="https://www.utoronto.ca/">UofT</a></li>
+    </ul>
+    <small class="text-subtitle">and previously ...</small>
+    <ul>  
+      <li>🍎 Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">UTSC</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div id="technology" class="content-block">
+    <small class="text-subtitle">with professional experience in ...</small>
+    <p class="text-heading" style="margin-top: 1.5em">👨🏻‍💻 Languages</p>
+    <span>Python, Java, Javascript, C, Typescript, Groovy, SQL</span>
+    <p class="text-heading">🌐 Web / Frameworks</p>
+    <span>React, Angular, Redux, Node.js, Spring Boot, Jekyll, GraphQL, Postgres, MySQL, MongoDB</span>
+    <p class="text-heading">🎨 Design</p>
+    <span>Photoshop, Illustrator, Premiere, Adobe XD</span>
+    <p class="text-heading">🌟 Other</p>
+    <span>Kubernetes, Docker, AWS, Jenkins, Storybook, Git, Bash</span>
+  </div>
+  <hr>
+  <div id="hobbies" class="content-block">
+    <small class="text-subtitle">outside of the office i am ...</small>
+    <ul>  
+      <li>a classical <span class="text-highlight">pianist 🎹</span> and general <span class="text-highlight">music 🎶</span> lover</li>
+      <li>a casual <span class="text-highlight">hiker 🥾</span> and amateur <span class="text-highlight">photographer 📸</span></li>
+      <li>in a love/hate relationship with <span class="text-highlight">league of legends 🎮</span></li>
+    </ul>
+  </div>
+  <hr>
+  <div id="contact" class="content-block">
+    <small class="text-subtitle">but enough talk, let's get in touch!</small>
+    <ul>
+      <li>
+        <a href="mailto:mstr.zhang@gmail.com">📧 Email</a>
+      </li>
+      <li>  
+        <a href="https://www.linkedin.com/in/mstrzhang/">👔 LinkedIn</a>
+      </li>
+      <li>
+        <a href="https://github.com/mstrzhang">💻 GitHub</a>
+      </li>
+    </ul>
+  </div>
+  <div class="content-block">
+    <small>&copy; 2020 &bull; Kevin Zhang</small>
+  </div>
 </body>
 </html>
