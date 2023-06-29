@@ -4,66 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮</text></svg>">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮</text></svg>">
+  <link rel="stylesheet" type="text/css" href="/dist/output.css">
   <title>Kevin Zhang</title>
 </head>
-<body>
-  <div id="title" class="content-block">
-    <small class="text-subtitle">hey! 👋🏻 my name is ...</small>
-    <h1>Kevin Zhang</h1>
-    <small>📌 Toronto, ON &nbsp;&bull;&nbsp; <a href="resume.pdf">📃 Resume</a></small>
-  </div>
-  <div id="overview" class="content-block">
-    <small class="text-subtitle">i am a ...</small>
-    <ul>
-      <li>🛍 Software Developer at <a href="https://www.shopify.com">Shopify</a></li>
-      <li>🎓 H.BSc in Computer Science from <a href="https://www.utoronto.ca/">UofT</a></li>
-    </ul>
-    <small class="text-subtitle">and previously ...</small>
-    <ul>  
-      <li>🏡 Systems Integration Lead at <a href="https://www.mpac.ca/en/Homepage">MPAC</a></li>
-      <li>🍎 Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">UTSC</a></li>
-    </ul>
-  </div>
-  <hr>
-  <div id="technology" class="content-block">
-    <small class="text-subtitle">with professional experience in ...</small>
-    <p class="text-heading" style="margin-top: 1.5em">👨🏻‍💻 Languages</p>
-    <span>Python, Java, Javascript, C, Typescript, Groovy, SQL</span>
-    <p class="text-heading">🌐 Web / Frameworks</p>
-    <span>React, Angular, Redux, Node.js, Spring Boot, Jekyll, GraphQL, Postgres, MySQL, MongoDB</span>
-    <p class="text-heading">🎨 Design</p>
-    <span>Photoshop, Illustrator, Premiere, Adobe XD</span>
-    <p class="text-heading">🌟 Other</p>
-    <span>Kubernetes, Docker, AWS, Jenkins, Storybook, Git, Bash</span>
-  </div>
-  <hr>
-  <div id="hobbies" class="content-block">
-    <small class="text-subtitle">outside of the office i am ...</small>
-    <ul>  
-      <li>a classical <span class="text-highlight">pianist 🎹</span> and general <span class="text-highlight">music 🎶</span> lover</li>
-      <li>a casual <span class="text-highlight">hiker 🥾</span> and amateur <span class="text-highlight">photographer 📸</span></li>
-      <li>in a love/hate relationship with <span class="text-highlight">league of legends 🎮</span></li>
-    </ul>
-  </div>
-  <hr>
-  <div id="contact" class="content-block">
-    <small class="text-subtitle">but enough talk, let's get in touch!</small>
-    <ul>
-      <li>
-        <a href="mailto:mstr.zhang@gmail.com">📧 Email</a>
-      </li>
-      <li>  
-        <a href="https://www.linkedin.com/in/mstrzhang/">👔 LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://github.com/mstrzhang">💻 GitHub</a>
-      </li>
-    </ul>
-  </div>
-  <div class="content-block">
-    <small>&copy; 2021 &bull; Kevin Zhang</small>
+<body class="bg-t_black text-t_white text-shadow">
+  <div class="m-8">
+    <div id="title" class="mb-8">
+      <div class="text-t_yellow text-sm mb-4">hey! 👋🏻 my name is ...</div>
+      <h1 class="text-4xl">Kevin Zhang</h1>
+      <div class="text-sm">
+        <span>📌 Toronto, ON</span>
+        <span class="ml-1 mr-1">&bull;</span>
+        <span class="text-t_blue shadow-t_blue hover:text-shadow-glow">
+          <a href="resume.pdf">📝 Resume</a>
+        </span>
+      </div>
+    </div>
+    <div id="work-experience" class="mb-8">
+      <div class="text-t_yellow text-sm mb-4">i am a ...</div>
+      <div class="mb-4">
+        <div>
+          📢 Full Stack Developer at
+          <a href="https://www.stackadapt.com" class="text-t_blue shadow-t_blue hover:text-shadow-glow">
+            StackAdapt
+          </a>
+        </div>
+        <div>
+          🎓 H.BSc in Computer Science from
+          <a href="https://www.utoronto.ca" class="text-t_blue shadow-t_blue hover:text-shadow-glow">
+            UofT
+          </a>
+        </div>
+      </div>
+      <div class="text-t_yellow text-sm mb-4">and previously ...</div>
+      <div>
+        <div>
+          🛍️ Frontend Developer at
+          <a href="https://www.shopify.ca" class="text-t_blue shadow-t_blue hover:text-shadow-glow">Shopify</a>
+        </div>
+        <div>
+          🏡 Systems Integration Lead at
+          <a href="https://mpac.ca" class="text-t_blue shadow-t_blue hover:text-shadow-glow">MPAC</a>
+        </div>
+        <div>
+          🍎 Teaching Assistant at
+          <a href="https://utsc.utoronto.ca/home/" class="text-t_blue shadow-t_blue hover:text-shadow-glow">UTSC</a>
+        </div>
+      </div>
+    </div>
+    <hr class="border border-dashed border-t_gray mb-8" />
+    <div id="technology" class="mb-8">
+      <div class="text-t_yellow text-sm mb-8">with professional experience in ...</div>
+      <div class="mb-4">
+        <div class="text-t_green">👨🏻‍💻 Languages</div>
+        <div>Python, Javascript / Typescript, Ruby, Go, Rust, Java, C, Groovy, SQL</div>
+      </div>
+      <div class="mb-4">
+        <div class="text-t_green">🌐 Web / Frameworks</div>
+        <div>React, Angular, Redux, Node.js, Remix, Spring Boot, GraphQL, Postgres, MongoDB</div>
+      </div>
+      <div class="mb-4">
+        <div class="text-t_green">🎨 Design</div>
+        <div>Photoshop, Illustrator, Premiere, Figma</div>
+      </div>
+      <div>
+        <div class="text-t_green">✨ Other</div>
+        <div>Kubernetes, Docker, AWS, Google Cloud, Storybook, Git, Bash</div>
+      </div>
+    </div>
+    <hr class="border border-dashed border-t_gray mb-8" />
+    <div id="hobbies" class="mb-8">
+      <div class="text-t_yellow text-sm mb-8">outside of the office i am ...</div>
+      <div>
+        a classical <span class="text-t_red">pianist 🎹</span> and general <span class="text-t_red">music 🎶</span> lover
+      </div>
+      <div>
+        a casual <span class="text-t_red">hiker 🥾</span> and amateur <span class="text-t_red">photographer 📸</span>
+      </div>
+      <div>
+        in a love/hate relationship with <span class="text-t_red">league of legends 🎮</span>
+      </div>
+    </div>
+    <hr class="border border-dashed border-t_gray mb-8" />
+    <div id="contact" class="mb-8">
+      <div class="text-t_yellow text-sm mb-8">but enough talk, let's get in touch!</div>
+      <div>
+        <a class="text-t_blue shadow-t_blue hover:text-shadow-glow" href="mailto:mstr.zhang@gmail.com">
+          📧 Email
+        </a>
+      </div>
+      <div>
+        <a class="text-t_blue shadow-t_blue hover:text-shadow-glow" href="https://linkedin.com/in/mstrzhang">
+          👔 LinkedIn
+        </a>
+      </div>
+      <div>
+        <a class="text-t_blue shadow-t_blue hover:text-shadow-glow" href="https://github.com/mstrzhang">
+          💻 GitHub
+        </a>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="text-xs">&copy; 2023 &bull; Kevin Zhang</div>
+    </div>
   </div>
 </body>
 </html>
