@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .link {
+    @apply text-t_blue shadow-t_blue hover:text-shadow-glow;
+  }
+
+  .section-header {
+    @apply text-t_yellow text-sm mb-4;
+  }
+
+  .section-header-lg {
+    @apply text-t_yellow text-sm mb-8;
+  }
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
